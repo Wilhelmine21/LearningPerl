@@ -12,5 +12,6 @@
     ```perl:
     print "Hello World!\n"; 
     ```
-* Terminal
+* Terminal</br>
     ![01_helloword.jpg](./01_helloword.jpg)
+</br>

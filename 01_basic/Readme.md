@@ -35,8 +35,8 @@
 
     $str_num1 = 123;
     $str_num2 = 456;
-    print "$str_num1 + $str_num2 = $str_num1+$str_num2\n";
-    print "$str_num1 . $str_num2 = $str_num1.$str_num2\n";
+    print "$str_num1 + $str_num2 = ",$str_num1+$str_num2,"\n";
+    print "$str_num1 . $str_num2 = ",$str_num1.$str_num2,"\n";
     ```
 * Terminal:
 </br><img src="01-1_scalar.jpg" width="50%" height="50%"></br>

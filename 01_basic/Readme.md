@@ -38,5 +38,7 @@
     print "$str_num1 . $str_num2 = $str_num1.$str_num2\n";
     ```
 * Terminal:
-    ![01-1_scalar.jpg](01-1_scalar.jpg)
+    </br>![01-1_scalar.jpg](01-1_scalar.jpg)</br>
+
+
 

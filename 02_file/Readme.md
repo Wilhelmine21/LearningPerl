@@ -37,7 +37,7 @@
         open my $fh, "<", "file.txt" or die "Cannot open file: $!";
         # Read the file line by line
         while (my $line = <$fh>) {
-        print $line;
+        print $line; 
         }
         # Close the file
         close $fh;

@@ -41,7 +41,7 @@
 * Terminal:
 </br><img src="01-1_scalar.jpg" width="50%" height="50%"></br>
 
-## Others
+## 01-2 chomp() & defined()
 * delete '\n':
     ```perl
     chomp($data);
@@ -62,5 +62,37 @@
 * Terminal:
 </br><img src="01-2_others.jpg" width="50%" height="50%"></br>
 
+## 01-3 Array
+* Example:
+    ```perl
+    #!/usr/bin/perl -w
+    @array = qw/data1 data2 data3/;
+    @array_1_10 = (1..10);
+    print "@array\n";
+    print "@array_1_10\n";
 
+    @array2 = (1, 2, 3);
+    $array2[19] = 20;
+    print "$array2[1]\n";
+    print "$array2[19]\n";
+    # array2 len 3 ---> 20
+    # index 0,1,2,20 -> values
+    # others -> undef!
+
+    @array3 = (11, 22, 33, 44, 55);
+    $array3[6] = "66";
+    print "$#array3\n";
+    print "$array3[5]\n"; # undef!
+    ```
+* Terminal:
+</br><img src="01-3.jpg" width="50%" height="50%"></br>
+
+<!-- ## 01-
+* Example:
+    ```perl
+    #!/usr/bin/perl -w
+
+    ```
+* Terminal:
+</br><img src="01-.jpg" width="50%" height="50%"></br> -->
 

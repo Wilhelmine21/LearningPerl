@@ -21,9 +21,10 @@
 * Perl has a rich set of features for working with regular expressions, which are patterns used to match and manipulate strings.
 ---
 * This is just a brief overview of the basics of Perl programming. There is much more to learn, but these basics should give you a good starting point.
-## 01-1 Scalar
+## 01-1 Scalar & String
 * Example:
     ```perl
+    #!/usr/bin/perl -w
     $str1="ABC";
     print "Hi, $str1\n";
     
@@ -40,7 +41,26 @@
 * Terminal:
 </br><img src="01-1_scalar.jpg" width="50%" height="50%"></br>
 
-
+## Others
+* delete '\n':
+    ```perl
+    chomp($data);
+    ```
+* check var:
+    ```perl
+    defined($data);
+    ```
+* Example:
+    ```perl
+    #!/usr/bin/perl -w
+    if (defined($data)){
+        print $data;
+    }else{
+        print "Undefined!\n";
+    }
+    ```
+* Terminal:
+</br><img src="01-2_others.jpg" width="50%" height="50%"></br>
 
 
 
